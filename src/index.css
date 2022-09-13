@@ -1,0 +1,30 @@
+:root {
+  --red-color: #f67;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;;
+}
+
+.button {
+  padding: .5rem 1rem;
+  
+  background-color: #eee;
+  border: none;
+  border-radius: 6px;
+}
+
+.button:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.button-cta {
+  background-color: var(--red-color);
+  color: #ddd;
+}
+
+.button-cta:hover {
+  background-color: #f56;
+}
